@@ -138,10 +138,13 @@ with at least one strict inequality. All dominated routes are pruned and logged 
 
 #### Mode 1: Reference Scoring (`scoring="reference"`, Default)
 Route scores are evaluated independently of competitor routes against shipment constraints:
-$$\text{cost\_penalty} = \frac{\mathbb{E}[C]}{\text{Max Budget}}$$
-$$\text{time\_penalty} = \frac{\mathbb{E}[T]}{\text{Deadline}}$$
-$$\text{risk\_penalty} = \text{Risk Index}$$
-$$\text{Score} = w_c \cdot \text{cost\_penalty} + w_t \cdot \text{time\_penalty} + w_r \cdot \text{risk\_penalty}$$
+$$\text{Cost Penalty} = \frac{\mathbb{E}[C]}{\text{Max Budget}}$$
+$$\text{Time Penalty} = \frac{\mathbb{E}[T]}{\text{Deadline}}$$
+$$\text{Risk Penalty} = \text{Risk Index}$$
+$$\text{Score} = w_c \cdot \text{Cost Penalty} + w_t \cdot \text{Time Penalty} + w_r \cdot \text{Risk Penalty}$$
+
+*(In Python code: `cost_penalty`, `time_penalty`, `risk_penalty`)*
+
 Lowest score wins. This formulation ensures that introducing or removing a competing route cannot artificially distort an existing candidate's evaluation score.
 
 #### Mode 2: Min-Max Normalised Scoring (`scoring="minmax"`)
