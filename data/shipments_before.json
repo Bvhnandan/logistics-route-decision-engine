@@ -1,0 +1,1905 @@
+[
+  {
+    "shipment_id": "SHP-001",
+    "origin": "Dubai",
+    "destination": "Tokyo",
+    "profile": "urgent",
+    "cargo_value_usd": 432127.0,
+    "max_budget_usd": 12012.72,
+    "deadline_days": 22.79,
+    "routes": [
+      {
+        "route_id": "SHP-001_R0",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 11804.98,
+        "base_transit_days": 5.8,
+        "delay_probability": 0.1286,
+        "delay_duration_days": 0.69,
+        "congestion_score": 0.2126,
+        "geopolitical_risk_score": 0.1242
+      },
+      {
+        "route_id": "SHP-001_R1",
+        "mode": "Ocean+Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10560.59,
+        "base_transit_days": 24.3,
+        "delay_probability": 0.5468,
+        "delay_duration_days": 5.22,
+        "congestion_score": 0.5795,
+        "geopolitical_risk_score": 0.5218
+      },
+      {
+        "route_id": "SHP-001_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3517.37,
+        "base_transit_days": 27.6,
+        "delay_probability": 0.4774,
+        "delay_duration_days": 5.13,
+        "congestion_score": 0.7883,
+        "geopolitical_risk_score": 0.6072
+      },
+      {
+        "route_id": "SHP-001_R3",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6002.73,
+        "base_transit_days": 9.1,
+        "delay_probability": 0.17,
+        "delay_duration_days": 1.13,
+        "congestion_score": 0.2463,
+        "geopolitical_risk_score": 0.2708
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-002",
+    "origin": "Shanghai",
+    "destination": "Chicago",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 419484.7,
+    "max_budget_usd": 5796.93,
+    "deadline_days": 29.81,
+    "routes": [
+      {
+        "route_id": "SHP-002_R0",
+        "mode": "Road",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 6729.97,
+        "base_transit_days": 24.9,
+        "delay_probability": 0.3419,
+        "delay_duration_days": 4.0,
+        "congestion_score": 0.5026,
+        "geopolitical_risk_score": 0.6148
+      },
+      {
+        "route_id": "SHP-002_R1",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 5673.24,
+        "base_transit_days": 15.6,
+        "delay_probability": 0.1688,
+        "delay_duration_days": 2.71,
+        "congestion_score": 0.2419,
+        "geopolitical_risk_score": 0.1286
+      },
+      {
+        "route_id": "SHP-002_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3071.53,
+        "base_transit_days": 24.4,
+        "delay_probability": 0.4196,
+        "delay_duration_days": 7.59,
+        "congestion_score": 0.6539,
+        "geopolitical_risk_score": 0.4714
+      },
+      {
+        "route_id": "SHP-002_R3",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 6431.6,
+        "base_transit_days": 2.2,
+        "delay_probability": 0.0937,
+        "delay_duration_days": 0.82,
+        "congestion_score": 0.2021,
+        "geopolitical_risk_score": 0.2207
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-003",
+    "origin": "Dubai",
+    "destination": "Mumbai",
+    "profile": "standard",
+    "cargo_value_usd": 215065.69,
+    "max_budget_usd": 8104.51,
+    "deadline_days": 24.63,
+    "routes": [
+      {
+        "route_id": "SHP-003_R0",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 2602.2,
+        "base_transit_days": 8.0,
+        "delay_probability": 0.2084,
+        "delay_duration_days": 2.39,
+        "congestion_score": 0.2484,
+        "geopolitical_risk_score": 0.2253
+      },
+      {
+        "route_id": "SHP-003_R1",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5218.5,
+        "base_transit_days": 5.5,
+        "delay_probability": 0.0946,
+        "delay_duration_days": 1.07,
+        "congestion_score": 0.1754,
+        "geopolitical_risk_score": 0.1761
+      },
+      {
+        "route_id": "SHP-003_R2",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1445.42,
+        "base_transit_days": 17.4,
+        "delay_probability": 0.5386,
+        "delay_duration_days": 8.45,
+        "congestion_score": 0.6799,
+        "geopolitical_risk_score": 0.3563
+      },
+      {
+        "route_id": "SHP-003_R3",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10815.06,
+        "base_transit_days": 26.5,
+        "delay_probability": 0.5151,
+        "delay_duration_days": 5.25,
+        "congestion_score": 0.5953,
+        "geopolitical_risk_score": 0.3386
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-004",
+    "origin": "Dubai",
+    "destination": "Chicago",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 298025.39,
+    "max_budget_usd": 6956.85,
+    "deadline_days": 32.24,
+    "routes": [
+      {
+        "route_id": "SHP-004_R0",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 7456.74,
+        "base_transit_days": 5.1,
+        "delay_probability": 0.1084,
+        "delay_duration_days": 1.47,
+        "congestion_score": 0.1211,
+        "geopolitical_risk_score": 0.1332
+      },
+      {
+        "route_id": "SHP-004_R1",
+        "mode": "Road",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 5249.69,
+        "base_transit_days": 21.9,
+        "delay_probability": 0.399,
+        "delay_duration_days": 3.72,
+        "congestion_score": 0.5362,
+        "geopolitical_risk_score": 0.5351
+      },
+      {
+        "route_id": "SHP-004_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3790.34,
+        "base_transit_days": 26.6,
+        "delay_probability": 0.3541,
+        "delay_duration_days": 6.55,
+        "congestion_score": 0.4091,
+        "geopolitical_risk_score": 0.6334
+      },
+      {
+        "route_id": "SHP-004_R3",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4670.37,
+        "base_transit_days": 15.6,
+        "delay_probability": 0.1124,
+        "delay_duration_days": 2.46,
+        "congestion_score": 0.3472,
+        "geopolitical_risk_score": 0.3345
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-005",
+    "origin": "Singapore",
+    "destination": "New York",
+    "profile": "standard",
+    "cargo_value_usd": 285937.35,
+    "max_budget_usd": 9739.15,
+    "deadline_days": 31.12,
+    "routes": [
+      {
+        "route_id": "SHP-005_R0",
+        "mode": "Ocean",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 9275.38,
+        "base_transit_days": 5.6,
+        "delay_probability": 0.1269,
+        "delay_duration_days": 0.66,
+        "congestion_score": 0.329,
+        "geopolitical_risk_score": 0.096
+      },
+      {
+        "route_id": "SHP-005_R1",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 5224.48,
+        "base_transit_days": 22.9,
+        "delay_probability": 0.4113,
+        "delay_duration_days": 7.15,
+        "congestion_score": 0.7829,
+        "geopolitical_risk_score": 0.4269
+      },
+      {
+        "route_id": "SHP-005_R2",
+        "mode": "Ocean+Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2014.57,
+        "base_transit_days": 25.3,
+        "delay_probability": 0.3268,
+        "delay_duration_days": 8.62,
+        "congestion_score": 0.4658,
+        "geopolitical_risk_score": 0.268
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-006",
+    "origin": "Hamburg",
+    "destination": "Mumbai",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 440002.37,
+    "max_budget_usd": 7024.18,
+    "deadline_days": 29.77,
+    "routes": [
+      {
+        "route_id": "SHP-006_R0",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5451.99,
+        "base_transit_days": 3.2,
+        "delay_probability": 0.0749,
+        "delay_duration_days": 1.36,
+        "congestion_score": 0.2041,
+        "geopolitical_risk_score": 0.0599
+      },
+      {
+        "route_id": "SHP-006_R1",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2246.12,
+        "base_transit_days": 25.5,
+        "delay_probability": 0.2805,
+        "delay_duration_days": 8.0,
+        "congestion_score": 0.4208,
+        "geopolitical_risk_score": 0.6199
+      },
+      {
+        "route_id": "SHP-006_R2",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6296.09,
+        "base_transit_days": 16.9,
+        "delay_probability": 0.2469,
+        "delay_duration_days": 3.41,
+        "congestion_score": 0.4338,
+        "geopolitical_risk_score": 0.2606
+      },
+      {
+        "route_id": "SHP-006_R3",
+        "mode": "Road",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 9673.98,
+        "base_transit_days": 16.2,
+        "delay_probability": 0.4608,
+        "delay_duration_days": 5.57,
+        "congestion_score": 0.8002,
+        "geopolitical_risk_score": 0.4851
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-007",
+    "origin": "Shanghai",
+    "destination": "New York",
+    "profile": "standard",
+    "cargo_value_usd": 249381.09,
+    "max_budget_usd": 11022.99,
+    "deadline_days": 30.78,
+    "routes": [
+      {
+        "route_id": "SHP-007_R0",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4153.8,
+        "base_transit_days": 11.0,
+        "delay_probability": 0.1491,
+        "delay_duration_days": 2.14,
+        "congestion_score": 0.4057,
+        "geopolitical_risk_score": 0.1742
+      },
+      {
+        "route_id": "SHP-007_R1",
+        "mode": "Ocean+Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10498.09,
+        "base_transit_days": 21.7,
+        "delay_probability": 0.3985,
+        "delay_duration_days": 5.68,
+        "congestion_score": 0.797,
+        "geopolitical_risk_score": 0.561
+      },
+      {
+        "route_id": "SHP-007_R2",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3452.3,
+        "base_transit_days": 25.7,
+        "delay_probability": 0.4399,
+        "delay_duration_days": 4.73,
+        "congestion_score": 0.694,
+        "geopolitical_risk_score": 0.331
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-008",
+    "origin": "Dubai",
+    "destination": "Sydney",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 39272.62,
+    "max_budget_usd": 8038.21,
+    "deadline_days": 35.19,
+    "routes": [
+      {
+        "route_id": "SHP-008_R0",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 9471.13,
+        "base_transit_days": 24.1,
+        "delay_probability": 0.5553,
+        "delay_duration_days": 3.78,
+        "congestion_score": 0.7571,
+        "geopolitical_risk_score": 0.3772
+      },
+      {
+        "route_id": "SHP-008_R1",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 6166.07,
+        "base_transit_days": 5.5,
+        "delay_probability": 0.148,
+        "delay_duration_days": 1.42,
+        "congestion_score": 0.1136,
+        "geopolitical_risk_score": 0.1733
+      },
+      {
+        "route_id": "SHP-008_R2",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6478.66,
+        "base_transit_days": 14.8,
+        "delay_probability": 0.126,
+        "delay_duration_days": 1.28,
+        "congestion_score": 0.2551,
+        "geopolitical_risk_score": 0.345
+      },
+      {
+        "route_id": "SHP-008_R3",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2483.97,
+        "base_transit_days": 30.7,
+        "delay_probability": 0.4409,
+        "delay_duration_days": 6.43,
+        "congestion_score": 0.4581,
+        "geopolitical_risk_score": 0.6284
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-009",
+    "origin": "Hamburg",
+    "destination": "Tokyo",
+    "profile": "urgent",
+    "cargo_value_usd": 471485.32,
+    "max_budget_usd": 8966.49,
+    "deadline_days": 18.99,
+    "routes": [
+      {
+        "route_id": "SHP-009_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2331.3,
+        "base_transit_days": 24.5,
+        "delay_probability": 0.2858,
+        "delay_duration_days": 3.8,
+        "congestion_score": 0.5112,
+        "geopolitical_risk_score": 0.3719
+      },
+      {
+        "route_id": "SHP-009_R1",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8887.9,
+        "base_transit_days": 5.2,
+        "delay_probability": 0.0912,
+        "delay_duration_days": 1.11,
+        "congestion_score": 0.1544,
+        "geopolitical_risk_score": 0.1677
+      },
+      {
+        "route_id": "SHP-009_R2",
+        "mode": "Ocean",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3926.68,
+        "base_transit_days": 7.4,
+        "delay_probability": 0.1628,
+        "delay_duration_days": 2.42,
+        "congestion_score": 0.2677,
+        "geopolitical_risk_score": 0.2431
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-010",
+    "origin": "Singapore",
+    "destination": "Tokyo",
+    "profile": "standard",
+    "cargo_value_usd": 171782.79,
+    "max_budget_usd": 7967.94,
+    "deadline_days": 30.8,
+    "routes": [
+      {
+        "route_id": "SHP-010_R0",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7588.51,
+        "base_transit_days": 24.0,
+        "delay_probability": 0.4082,
+        "delay_duration_days": 5.56,
+        "congestion_score": 0.7578,
+        "geopolitical_risk_score": 0.6546
+      },
+      {
+        "route_id": "SHP-010_R1",
+        "mode": "Ocean+Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2610.17,
+        "base_transit_days": 25.4,
+        "delay_probability": 0.49,
+        "delay_duration_days": 4.89,
+        "congestion_score": 0.735,
+        "geopolitical_risk_score": 0.4477
+      },
+      {
+        "route_id": "SHP-010_R2",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 4926.85,
+        "base_transit_days": 2.4,
+        "delay_probability": 0.1342,
+        "delay_duration_days": 0.58,
+        "congestion_score": 0.1702,
+        "geopolitical_risk_score": 0.1168
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-011",
+    "origin": "Rotterdam",
+    "destination": "Sydney",
+    "profile": "urgent",
+    "cargo_value_usd": 186316.57,
+    "max_budget_usd": 1584.93,
+    "deadline_days": 29.96,
+    "routes": [
+      {
+        "route_id": "SHP-011_R0",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3376.56,
+        "base_transit_days": 24.8,
+        "delay_probability": 0.5457,
+        "delay_duration_days": 5.79,
+        "congestion_score": 0.7912,
+        "geopolitical_risk_score": 0.4146
+      },
+      {
+        "route_id": "SHP-011_R1",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 2881.69,
+        "base_transit_days": 13.1,
+        "delay_probability": 0.2203,
+        "delay_duration_days": 3.77,
+        "congestion_score": 0.4468,
+        "geopolitical_risk_score": 0.1092
+      },
+      {
+        "route_id": "SHP-011_R2",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7236.21,
+        "base_transit_days": 14.8,
+        "delay_probability": 0.3328,
+        "delay_duration_days": 6.38,
+        "congestion_score": 0.7496,
+        "geopolitical_risk_score": 0.6095
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-012",
+    "origin": "Dubai",
+    "destination": "Sydney",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 404418.36,
+    "max_budget_usd": 8524.64,
+    "deadline_days": 31.69,
+    "routes": [
+      {
+        "route_id": "SHP-012_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2941.31,
+        "base_transit_days": 32.2,
+        "delay_probability": 0.2514,
+        "delay_duration_days": 6.09,
+        "congestion_score": 0.6709,
+        "geopolitical_risk_score": 0.2618
+      },
+      {
+        "route_id": "SHP-012_R1",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10373.81,
+        "base_transit_days": 24.7,
+        "delay_probability": 0.3713,
+        "delay_duration_days": 7.26,
+        "congestion_score": 0.6218,
+        "geopolitical_risk_score": 0.6413
+      },
+      {
+        "route_id": "SHP-012_R2",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3845.25,
+        "base_transit_days": 13.5,
+        "delay_probability": 0.1595,
+        "delay_duration_days": 1.82,
+        "congestion_score": 0.466,
+        "geopolitical_risk_score": 0.1469
+      },
+      {
+        "route_id": "SHP-012_R3",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 6735.42,
+        "base_transit_days": 5.6,
+        "delay_probability": 0.1307,
+        "delay_duration_days": 2.0,
+        "congestion_score": 0.1741,
+        "geopolitical_risk_score": 0.1316
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-013",
+    "origin": "Rotterdam",
+    "destination": "Sydney",
+    "profile": "urgent",
+    "cargo_value_usd": 305702.16,
+    "max_budget_usd": 10901.08,
+    "deadline_days": 30.44,
+    "routes": [
+      {
+        "route_id": "SHP-013_R0",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5074.94,
+        "base_transit_days": 3.8,
+        "delay_probability": 0.0567,
+        "delay_duration_days": 0.8,
+        "congestion_score": 0.1044,
+        "geopolitical_risk_score": 0.1407
+      },
+      {
+        "route_id": "SHP-013_R1",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2161.22,
+        "base_transit_days": 23.4,
+        "delay_probability": 0.5378,
+        "delay_duration_days": 7.51,
+        "congestion_score": 0.6163,
+        "geopolitical_risk_score": 0.3638
+      },
+      {
+        "route_id": "SHP-013_R2",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10381.98,
+        "base_transit_days": 17.8,
+        "delay_probability": 0.3976,
+        "delay_duration_days": 7.55,
+        "congestion_score": 0.6853,
+        "geopolitical_risk_score": 0.5969
+      },
+      {
+        "route_id": "SHP-013_R3",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 5440.48,
+        "base_transit_days": 10.3,
+        "delay_probability": 0.1362,
+        "delay_duration_days": 1.97,
+        "congestion_score": 0.2466,
+        "geopolitical_risk_score": 0.3186
+      },
+      {
+        "route_id": "SHP-013_R4",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 6265.98,
+        "base_transit_days": 4.8,
+        "delay_probability": 0.1292,
+        "delay_duration_days": 1.68,
+        "congestion_score": 0.2096,
+        "geopolitical_risk_score": 0.1453
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-014",
+    "origin": "Rotterdam",
+    "destination": "New York",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 496680.6,
+    "max_budget_usd": 7243.31,
+    "deadline_days": 38.98,
+    "routes": [
+      {
+        "route_id": "SHP-014_R0",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3712.45,
+        "base_transit_days": 32.6,
+        "delay_probability": 0.4109,
+        "delay_duration_days": 6.73,
+        "congestion_score": 0.5093,
+        "geopolitical_risk_score": 0.2702
+      },
+      {
+        "route_id": "SHP-014_R1",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 6768.53,
+        "base_transit_days": 24.6,
+        "delay_probability": 0.5509,
+        "delay_duration_days": 3.09,
+        "congestion_score": 0.7085,
+        "geopolitical_risk_score": 0.3925
+      },
+      {
+        "route_id": "SHP-014_R2",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6432.5,
+        "base_transit_days": 9.8,
+        "delay_probability": 0.1916,
+        "delay_duration_days": 2.66,
+        "congestion_score": 0.3188,
+        "geopolitical_risk_score": 0.2694
+      },
+      {
+        "route_id": "SHP-014_R3",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8535.5,
+        "base_transit_days": 5.8,
+        "delay_probability": 0.1483,
+        "delay_duration_days": 1.13,
+        "congestion_score": 0.2286,
+        "geopolitical_risk_score": 0.0525
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-015",
+    "origin": "Los Angeles",
+    "destination": "Mumbai",
+    "profile": "standard",
+    "cargo_value_usd": 447035.08,
+    "max_budget_usd": 6079.62,
+    "deadline_days": 38.47,
+    "routes": [
+      {
+        "route_id": "SHP-015_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1618.25,
+        "base_transit_days": 34.2,
+        "delay_probability": 0.3035,
+        "delay_duration_days": 4.2,
+        "congestion_score": 0.7436,
+        "geopolitical_risk_score": 0.615
+      },
+      {
+        "route_id": "SHP-015_R1",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5697.18,
+        "base_transit_days": 4.3,
+        "delay_probability": 0.1233,
+        "delay_duration_days": 1.82,
+        "congestion_score": 0.1948,
+        "geopolitical_risk_score": 0.1534
+      },
+      {
+        "route_id": "SHP-015_R2",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 5790.11,
+        "base_transit_days": 15.6,
+        "delay_probability": 0.1855,
+        "delay_duration_days": 1.31,
+        "congestion_score": 0.4712,
+        "geopolitical_risk_score": 0.3164
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-016",
+    "origin": "Shanghai",
+    "destination": "Chicago",
+    "profile": "urgent",
+    "cargo_value_usd": 119704.28,
+    "max_budget_usd": 12094.34,
+    "deadline_days": 21.63,
+    "routes": [
+      {
+        "route_id": "SHP-016_R0",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3035.29,
+        "base_transit_days": 17.1,
+        "delay_probability": 0.1482,
+        "delay_duration_days": 2.82,
+        "congestion_score": 0.3395,
+        "geopolitical_risk_score": 0.2001
+      },
+      {
+        "route_id": "SHP-016_R1",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 6123.43,
+        "base_transit_days": 29.8,
+        "delay_probability": 0.5455,
+        "delay_duration_days": 6.71,
+        "congestion_score": 0.6641,
+        "geopolitical_risk_score": 0.3612
+      },
+      {
+        "route_id": "SHP-016_R2",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 11365.33,
+        "base_transit_days": 3.7,
+        "delay_probability": 0.055,
+        "delay_duration_days": 1.01,
+        "congestion_score": 0.2986,
+        "geopolitical_risk_score": 0.1745
+      },
+      {
+        "route_id": "SHP-016_R3",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3422.18,
+        "base_transit_days": 19.2,
+        "delay_probability": 0.5271,
+        "delay_duration_days": 5.63,
+        "congestion_score": 0.6556,
+        "geopolitical_risk_score": 0.2509
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-017",
+    "origin": "Los Angeles",
+    "destination": "London",
+    "profile": "standard",
+    "cargo_value_usd": 345485.15,
+    "max_budget_usd": 11219.47,
+    "deadline_days": 40.05,
+    "routes": [
+      {
+        "route_id": "SHP-017_R0",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2458.97,
+        "base_transit_days": 32.8,
+        "delay_probability": 0.4749,
+        "delay_duration_days": 8.95,
+        "congestion_score": 0.6126,
+        "geopolitical_risk_score": 0.514
+      },
+      {
+        "route_id": "SHP-017_R1",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10685.21,
+        "base_transit_days": 19.9,
+        "delay_probability": 0.5216,
+        "delay_duration_days": 5.02,
+        "congestion_score": 0.6966,
+        "geopolitical_risk_score": 0.5879
+      },
+      {
+        "route_id": "SHP-017_R2",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4790.2,
+        "base_transit_days": 17.0,
+        "delay_probability": 0.1629,
+        "delay_duration_days": 2.94,
+        "congestion_score": 0.3027,
+        "geopolitical_risk_score": 0.202
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-018",
+    "origin": "Los Angeles",
+    "destination": "Tokyo",
+    "profile": "standard",
+    "cargo_value_usd": 189602.09,
+    "max_budget_usd": 5582.68,
+    "deadline_days": 28.9,
+    "routes": [
+      {
+        "route_id": "SHP-018_R0",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3499.45,
+        "base_transit_days": 23.3,
+        "delay_probability": 0.3465,
+        "delay_duration_days": 7.49,
+        "congestion_score": 0.7206,
+        "geopolitical_risk_score": 0.4465
+      },
+      {
+        "route_id": "SHP-018_R1",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3147.59,
+        "base_transit_days": 16.7,
+        "delay_probability": 0.1144,
+        "delay_duration_days": 1.46,
+        "congestion_score": 0.3602,
+        "geopolitical_risk_score": 0.1169
+      },
+      {
+        "route_id": "SHP-018_R2",
+        "mode": "Road",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 5316.84,
+        "base_transit_days": 14.0,
+        "delay_probability": 0.4309,
+        "delay_duration_days": 6.87,
+        "congestion_score": 0.5122,
+        "geopolitical_risk_score": 0.5609
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-019",
+    "origin": "Los Angeles",
+    "destination": "Mumbai",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 296893.26,
+    "max_budget_usd": 6159.41,
+    "deadline_days": 34.9,
+    "routes": [
+      {
+        "route_id": "SHP-019_R0",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6868.98,
+        "base_transit_days": 11.2,
+        "delay_probability": 0.1596,
+        "delay_duration_days": 2.75,
+        "congestion_score": 0.2384,
+        "geopolitical_risk_score": 0.1803
+      },
+      {
+        "route_id": "SHP-019_R1",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5545.67,
+        "base_transit_days": 2.5,
+        "delay_probability": 0.1366,
+        "delay_duration_days": 1.38,
+        "congestion_score": 0.1897,
+        "geopolitical_risk_score": 0.1317
+      },
+      {
+        "route_id": "SHP-019_R2",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 8798.9,
+        "base_transit_days": 28.8,
+        "delay_probability": 0.5798,
+        "delay_duration_days": 4.96,
+        "congestion_score": 0.6152,
+        "geopolitical_risk_score": 0.4804
+      },
+      {
+        "route_id": "SHP-019_R3",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 8407.61,
+        "base_transit_days": 21.4,
+        "delay_probability": 0.4976,
+        "delay_duration_days": 5.77,
+        "congestion_score": 0.6123,
+        "geopolitical_risk_score": 0.4383
+      },
+      {
+        "route_id": "SHP-019_R4",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1464.99,
+        "base_transit_days": 18.3,
+        "delay_probability": 0.4669,
+        "delay_duration_days": 5.33,
+        "congestion_score": 0.4858,
+        "geopolitical_risk_score": 0.4751
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-020",
+    "origin": "Dubai",
+    "destination": "Mumbai",
+    "profile": "standard",
+    "cargo_value_usd": 306749.37,
+    "max_budget_usd": 9162.55,
+    "deadline_days": 23.34,
+    "routes": [
+      {
+        "route_id": "SHP-020_R0",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8631.82,
+        "base_transit_days": 2.0,
+        "delay_probability": 0.0539,
+        "delay_duration_days": 1.52,
+        "congestion_score": 0.2407,
+        "geopolitical_risk_score": 0.0553
+      },
+      {
+        "route_id": "SHP-020_R1",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 9947.68,
+        "base_transit_days": 6.3,
+        "delay_probability": 0.0996,
+        "delay_duration_days": 1.2,
+        "congestion_score": 0.1014,
+        "geopolitical_risk_score": 0.2073
+      },
+      {
+        "route_id": "SHP-020_R2",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10272.58,
+        "base_transit_days": 20.0,
+        "delay_probability": 0.4695,
+        "delay_duration_days": 4.35,
+        "congestion_score": 0.5562,
+        "geopolitical_risk_score": 0.61
+      },
+      {
+        "route_id": "SHP-020_R3",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4734.66,
+        "base_transit_days": 12.9,
+        "delay_probability": 0.2448,
+        "delay_duration_days": 3.89,
+        "congestion_score": 0.4567,
+        "geopolitical_risk_score": 0.1469
+      },
+      {
+        "route_id": "SHP-020_R4",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3658.81,
+        "base_transit_days": 22.5,
+        "delay_probability": 0.2803,
+        "delay_duration_days": 7.87,
+        "congestion_score": 0.5927,
+        "geopolitical_risk_score": 0.4758
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-021",
+    "origin": "Los Angeles",
+    "destination": "Mumbai",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 220457.26,
+    "max_budget_usd": 12842.08,
+    "deadline_days": 2.13,
+    "routes": [
+      {
+        "route_id": "SHP-021_R0",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 10701.73,
+        "base_transit_days": 3.4,
+        "delay_probability": 0.0804,
+        "delay_duration_days": 1.81,
+        "congestion_score": 0.106,
+        "geopolitical_risk_score": 0.1541
+      },
+      {
+        "route_id": "SHP-021_R1",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7782.05,
+        "base_transit_days": 25.0,
+        "delay_probability": 0.349,
+        "delay_duration_days": 6.34,
+        "congestion_score": 0.6319,
+        "geopolitical_risk_score": 0.5475
+      },
+      {
+        "route_id": "SHP-021_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2492.84,
+        "base_transit_days": 25.4,
+        "delay_probability": 0.3143,
+        "delay_duration_days": 3.84,
+        "congestion_score": 0.4754,
+        "geopolitical_risk_score": 0.3877
+      },
+      {
+        "route_id": "SHP-021_R3",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 2935.65,
+        "base_transit_days": 17.4,
+        "delay_probability": 0.1607,
+        "delay_duration_days": 3.43,
+        "congestion_score": 0.4923,
+        "geopolitical_risk_score": 0.1202
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-022",
+    "origin": "Rotterdam",
+    "destination": "Mumbai",
+    "profile": "standard",
+    "cargo_value_usd": 324432.53,
+    "max_budget_usd": 9721.34,
+    "deadline_days": 17.78,
+    "routes": [
+      {
+        "route_id": "SHP-022_R0",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 2661.54,
+        "base_transit_days": 12.9,
+        "delay_probability": 0.249,
+        "delay_duration_days": 3.88,
+        "congestion_score": 0.2121,
+        "geopolitical_risk_score": 0.2764
+      },
+      {
+        "route_id": "SHP-022_R1",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10417.93,
+        "base_transit_days": 14.7,
+        "delay_probability": 0.5808,
+        "delay_duration_days": 7.19,
+        "congestion_score": 0.5411,
+        "geopolitical_risk_score": 0.3239
+      },
+      {
+        "route_id": "SHP-022_R2",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3537.18,
+        "base_transit_days": 18.1,
+        "delay_probability": 0.4105,
+        "delay_duration_days": 8.49,
+        "congestion_score": 0.627,
+        "geopolitical_risk_score": 0.4089
+      },
+      {
+        "route_id": "SHP-022_R3",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 4504.94,
+        "base_transit_days": 6.8,
+        "delay_probability": 0.0811,
+        "delay_duration_days": 0.78,
+        "congestion_score": 0.1715,
+        "geopolitical_risk_score": 0.2429
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-023",
+    "origin": "Dubai",
+    "destination": "London",
+    "profile": "urgent",
+    "cargo_value_usd": 488430.82,
+    "max_budget_usd": 7130.44,
+    "deadline_days": 22.15,
+    "routes": [
+      {
+        "route_id": "SHP-023_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2727.89,
+        "base_transit_days": 25.9,
+        "delay_probability": 0.5197,
+        "delay_duration_days": 8.83,
+        "congestion_score": 0.6819,
+        "geopolitical_risk_score": 0.4432
+      },
+      {
+        "route_id": "SHP-023_R1",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7738.42,
+        "base_transit_days": 20.2,
+        "delay_probability": 0.4085,
+        "delay_duration_days": 4.96,
+        "congestion_score": 0.5314,
+        "geopolitical_risk_score": 0.331
+      },
+      {
+        "route_id": "SHP-023_R2",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 7568.58,
+        "base_transit_days": 6.7,
+        "delay_probability": 0.1112,
+        "delay_duration_days": 0.55,
+        "congestion_score": 0.1394,
+        "geopolitical_risk_score": 0.0912
+      },
+      {
+        "route_id": "SHP-023_R3",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6890.81,
+        "base_transit_days": 9.4,
+        "delay_probability": 0.1774,
+        "delay_duration_days": 3.81,
+        "congestion_score": 0.4932,
+        "geopolitical_risk_score": 0.1591
+      },
+      {
+        "route_id": "SHP-023_R4",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1630.09,
+        "base_transit_days": 16.3,
+        "delay_probability": 0.3085,
+        "delay_duration_days": 6.41,
+        "congestion_score": 0.765,
+        "geopolitical_risk_score": 0.4649
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-024",
+    "origin": "Dubai",
+    "destination": "Mumbai",
+    "profile": "standard",
+    "cargo_value_usd": 434785.68,
+    "max_budget_usd": 6683.71,
+    "deadline_days": 24.06,
+    "routes": [
+      {
+        "route_id": "SHP-024_R0",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1453.62,
+        "base_transit_days": 19.5,
+        "delay_probability": 0.3814,
+        "delay_duration_days": 8.67,
+        "congestion_score": 0.5513,
+        "geopolitical_risk_score": 0.5583
+      },
+      {
+        "route_id": "SHP-024_R1",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8323.81,
+        "base_transit_days": 2.9,
+        "delay_probability": 0.0821,
+        "delay_duration_days": 1.48,
+        "congestion_score": 0.2682,
+        "geopolitical_risk_score": 0.137
+      },
+      {
+        "route_id": "SHP-024_R2",
+        "mode": "Ocean",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 5748.58,
+        "base_transit_days": 8.9,
+        "delay_probability": 0.2405,
+        "delay_duration_days": 1.56,
+        "congestion_score": 0.2322,
+        "geopolitical_risk_score": 0.2244
+      },
+      {
+        "route_id": "SHP-024_R3",
+        "mode": "Ocean+Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 8117.3,
+        "base_transit_days": 22.1,
+        "delay_probability": 0.431,
+        "delay_duration_days": 7.97,
+        "congestion_score": 0.6702,
+        "geopolitical_risk_score": 0.4912
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-025",
+    "origin": "Singapore",
+    "destination": "Chicago",
+    "profile": "standard",
+    "cargo_value_usd": 409819.02,
+    "max_budget_usd": 11715.38,
+    "deadline_days": 32.49,
+    "routes": [
+      {
+        "route_id": "SHP-025_R0",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7758.26,
+        "base_transit_days": 17.4,
+        "delay_probability": 0.5236,
+        "delay_duration_days": 3.66,
+        "congestion_score": 0.5695,
+        "geopolitical_risk_score": 0.5507
+      },
+      {
+        "route_id": "SHP-025_R1",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 11157.5,
+        "base_transit_days": 3.4,
+        "delay_probability": 0.0611,
+        "delay_duration_days": 1.93,
+        "congestion_score": 0.1386,
+        "geopolitical_risk_score": 0.0895
+      },
+      {
+        "route_id": "SHP-025_R2",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2015.72,
+        "base_transit_days": 25.6,
+        "delay_probability": 0.5148,
+        "delay_duration_days": 7.56,
+        "congestion_score": 0.6833,
+        "geopolitical_risk_score": 0.3201
+      },
+      {
+        "route_id": "SHP-025_R3",
+        "mode": "Ocean",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4652.82,
+        "base_transit_days": 8.6,
+        "delay_probability": 0.141,
+        "delay_duration_days": 1.92,
+        "congestion_score": 0.2382,
+        "geopolitical_risk_score": 0.2376
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-026",
+    "origin": "Dubai",
+    "destination": "New York",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 217684.85,
+    "max_budget_usd": 6888.61,
+    "deadline_days": 35.1,
+    "routes": [
+      {
+        "route_id": "SHP-026_R0",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3243.48,
+        "base_transit_days": 30.1,
+        "delay_probability": 0.2793,
+        "delay_duration_days": 5.81,
+        "congestion_score": 0.4802,
+        "geopolitical_risk_score": 0.3242
+      },
+      {
+        "route_id": "SHP-026_R1",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 7710.62,
+        "base_transit_days": 3.4,
+        "delay_probability": 0.1296,
+        "delay_duration_days": 1.86,
+        "congestion_score": 0.3007,
+        "geopolitical_risk_score": 0.1032
+      },
+      {
+        "route_id": "SHP-026_R2",
+        "mode": "Ocean",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3646.28,
+        "base_transit_days": 8.5,
+        "delay_probability": 0.2416,
+        "delay_duration_days": 2.21,
+        "congestion_score": 0.2674,
+        "geopolitical_risk_score": 0.3117
+      },
+      {
+        "route_id": "SHP-026_R3",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7395.17,
+        "base_transit_days": 14.6,
+        "delay_probability": 0.3486,
+        "delay_duration_days": 6.2,
+        "congestion_score": 0.774,
+        "geopolitical_risk_score": 0.3844
+      },
+      {
+        "route_id": "SHP-026_R4",
+        "mode": "Ocean+Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3582.79,
+        "base_transit_days": 32.0,
+        "delay_probability": 0.3183,
+        "delay_duration_days": 3.3,
+        "congestion_score": 0.747,
+        "geopolitical_risk_score": 0.3723
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-027",
+    "origin": "Shanghai",
+    "destination": "New York",
+    "profile": "standard",
+    "cargo_value_usd": 470485.5,
+    "max_budget_usd": 8630.64,
+    "deadline_days": 37.08,
+    "routes": [
+      {
+        "route_id": "SHP-027_R0",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8219.66,
+        "base_transit_days": 5.7,
+        "delay_probability": 0.1321,
+        "delay_duration_days": 1.62,
+        "congestion_score": 0.172,
+        "geopolitical_risk_score": 0.0736
+      },
+      {
+        "route_id": "SHP-027_R1",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 5906.71,
+        "base_transit_days": 4.5,
+        "delay_probability": 0.1005,
+        "delay_duration_days": 1.37,
+        "congestion_score": 0.1988,
+        "geopolitical_risk_score": 0.2074
+      },
+      {
+        "route_id": "SHP-027_R2",
+        "mode": "Ocean+Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 6480.35,
+        "base_transit_days": 25.8,
+        "delay_probability": 0.5034,
+        "delay_duration_days": 5.62,
+        "congestion_score": 0.566,
+        "geopolitical_risk_score": 0.6181
+      },
+      {
+        "route_id": "SHP-027_R3",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3889.75,
+        "base_transit_days": 29.4,
+        "delay_probability": 0.5254,
+        "delay_duration_days": 8.91,
+        "congestion_score": 0.5408,
+        "geopolitical_risk_score": 0.5053
+      },
+      {
+        "route_id": "SHP-027_R4",
+        "mode": "Rail",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6939.83,
+        "base_transit_days": 8.0,
+        "delay_probability": 0.1619,
+        "delay_duration_days": 3.63,
+        "congestion_score": 0.2852,
+        "geopolitical_risk_score": 0.2969
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-028",
+    "origin": "Los Angeles",
+    "destination": "Sydney",
+    "profile": "urgent",
+    "cargo_value_usd": 133789.8,
+    "max_budget_usd": 11267.47,
+    "deadline_days": 18.97,
+    "routes": [
+      {
+        "route_id": "SHP-028_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2523.16,
+        "base_transit_days": 25.0,
+        "delay_probability": 0.4359,
+        "delay_duration_days": 8.57,
+        "congestion_score": 0.5967,
+        "geopolitical_risk_score": 0.4615
+      },
+      {
+        "route_id": "SHP-028_R1",
+        "mode": "Road",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 5818.82,
+        "base_transit_days": 7.8,
+        "delay_probability": 0.1774,
+        "delay_duration_days": 2.44,
+        "congestion_score": 0.4765,
+        "geopolitical_risk_score": 0.2234
+      },
+      {
+        "route_id": "SHP-028_R2",
+        "mode": "Rail",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 7746.56,
+        "base_transit_days": 6.8,
+        "delay_probability": 0.0951,
+        "delay_duration_days": 0.77,
+        "congestion_score": 0.1542,
+        "geopolitical_risk_score": 0.069
+      },
+      {
+        "route_id": "SHP-028_R3",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7591.67,
+        "base_transit_days": 26.3,
+        "delay_probability": 0.52,
+        "delay_duration_days": 3.16,
+        "congestion_score": 0.6995,
+        "geopolitical_risk_score": 0.3617
+      },
+      {
+        "route_id": "SHP-028_R4",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10646.46,
+        "base_transit_days": 16.7,
+        "delay_probability": 0.488,
+        "delay_duration_days": 4.63,
+        "congestion_score": 0.7245,
+        "geopolitical_risk_score": 0.4649
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-029",
+    "origin": "Rotterdam",
+    "destination": "London",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 382924.71,
+    "max_budget_usd": 8486.55,
+    "deadline_days": 24.52,
+    "routes": [
+      {
+        "route_id": "SHP-029_R0",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3507.76,
+        "base_transit_days": 10.2,
+        "delay_probability": 0.1376,
+        "delay_duration_days": 1.79,
+        "congestion_score": 0.3747,
+        "geopolitical_risk_score": 0.3484
+      },
+      {
+        "route_id": "SHP-029_R1",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8214.19,
+        "base_transit_days": 5.2,
+        "delay_probability": 0.136,
+        "delay_duration_days": 1.9,
+        "congestion_score": 0.151,
+        "geopolitical_risk_score": 0.1557
+      },
+      {
+        "route_id": "SHP-029_R2",
+        "mode": "Rail",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 9997.02,
+        "base_transit_days": 18.9,
+        "delay_probability": 0.4319,
+        "delay_duration_days": 7.93,
+        "congestion_score": 0.8448,
+        "geopolitical_risk_score": 0.6624
+      },
+      {
+        "route_id": "SHP-029_R3",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 1953.57,
+        "base_transit_days": 21.4,
+        "delay_probability": 0.4142,
+        "delay_duration_days": 6.36,
+        "congestion_score": 0.6022,
+        "geopolitical_risk_score": 0.5047
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-030",
+    "origin": "Los Angeles",
+    "destination": "Chicago",
+    "profile": "cost_sensitive",
+    "cargo_value_usd": 81068.46,
+    "max_budget_usd": 7948.77,
+    "deadline_days": 23.55,
+    "routes": [
+      {
+        "route_id": "SHP-030_R0",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 7570.26,
+        "base_transit_days": 3.1,
+        "delay_probability": 0.1259,
+        "delay_duration_days": 1.33,
+        "congestion_score": 0.1053,
+        "geopolitical_risk_score": 0.1133
+      },
+      {
+        "route_id": "SHP-030_R1",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3296.51,
+        "base_transit_days": 14.2,
+        "delay_probability": 0.1413,
+        "delay_duration_days": 1.19,
+        "congestion_score": 0.2165,
+        "geopolitical_risk_score": 0.2454
+      },
+      {
+        "route_id": "SHP-030_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3576.62,
+        "base_transit_days": 18.1,
+        "delay_probability": 0.432,
+        "delay_duration_days": 5.67,
+        "congestion_score": 0.5771,
+        "geopolitical_risk_score": 0.2787
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-031",
+    "origin": "Shanghai",
+    "destination": "Frankfurt",
+    "profile": "urgent",
+    "cargo_value_usd": 42738.8,
+    "max_budget_usd": 1463.69,
+    "deadline_days": 3.04,
+    "routes": [
+      {
+        "route_id": "SHP-031_R0",
+        "mode": "Road",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2661.25,
+        "base_transit_days": 20.6,
+        "delay_probability": 0.2596,
+        "delay_duration_days": 6.69,
+        "congestion_score": 0.5495,
+        "geopolitical_risk_score": 0.5105
+      },
+      {
+        "route_id": "SHP-031_R1",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 5082.66,
+        "base_transit_days": 18.0,
+        "delay_probability": 0.437,
+        "delay_duration_days": 4.97,
+        "congestion_score": 0.7836,
+        "geopolitical_risk_score": 0.4511
+      },
+      {
+        "route_id": "SHP-031_R2",
+        "mode": "Road",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 8243.53,
+        "base_transit_days": 5.0,
+        "delay_probability": 0.0522,
+        "delay_duration_days": 1.27,
+        "congestion_score": 0.1862,
+        "geopolitical_risk_score": 0.1343
+      },
+      {
+        "route_id": "SHP-031_R3",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3391.9,
+        "base_transit_days": 33.8,
+        "delay_probability": 0.2567,
+        "delay_duration_days": 6.61,
+        "congestion_score": 0.7055,
+        "geopolitical_risk_score": 0.3639
+      },
+      {
+        "route_id": "SHP-031_R4",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6044.0,
+        "base_transit_days": 14.0,
+        "delay_probability": 0.2394,
+        "delay_duration_days": 3.94,
+        "congestion_score": 0.2127,
+        "geopolitical_risk_score": 0.2112
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-032",
+    "origin": "Singapore",
+    "destination": "Frankfurt",
+    "profile": "standard",
+    "cargo_value_usd": 181417.2,
+    "max_budget_usd": 6976.31,
+    "deadline_days": 29.66,
+    "routes": [
+      {
+        "route_id": "SHP-032_R0",
+        "mode": "Ocean",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3559.43,
+        "base_transit_days": 21.5,
+        "delay_probability": 0.3939,
+        "delay_duration_days": 8.87,
+        "congestion_score": 0.59,
+        "geopolitical_risk_score": 0.3024
+      },
+      {
+        "route_id": "SHP-032_R1",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 6754.37,
+        "base_transit_days": 9.9,
+        "delay_probability": 0.1756,
+        "delay_duration_days": 1.27,
+        "congestion_score": 0.3271,
+        "geopolitical_risk_score": 0.3325
+      },
+      {
+        "route_id": "SHP-032_R2",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 8014.48,
+        "base_transit_days": 29.5,
+        "delay_probability": 0.3777,
+        "delay_duration_days": 5.52,
+        "congestion_score": 0.8008,
+        "geopolitical_risk_score": 0.4793
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-033",
+    "origin": "Hamburg",
+    "destination": "London",
+    "profile": "urgent",
+    "cargo_value_usd": 488732.99,
+    "max_budget_usd": 5445.74,
+    "deadline_days": 25.6,
+    "routes": [
+      {
+        "route_id": "SHP-033_R0",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 5186.42,
+        "base_transit_days": 20.3,
+        "delay_probability": 0.3601,
+        "delay_duration_days": 6.4,
+        "congestion_score": 0.5635,
+        "geopolitical_risk_score": 0.5699
+      },
+      {
+        "route_id": "SHP-033_R1",
+        "mode": "Ocean",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 4098.48,
+        "base_transit_days": 10.8,
+        "delay_probability": 0.2075,
+        "delay_duration_days": 2.4,
+        "congestion_score": 0.3084,
+        "geopolitical_risk_score": 0.3132
+      },
+      {
+        "route_id": "SHP-033_R2",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2801.46,
+        "base_transit_days": 19.3,
+        "delay_probability": 0.52,
+        "delay_duration_days": 5.06,
+        "congestion_score": 0.4156,
+        "geopolitical_risk_score": 0.4478
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-034",
+    "origin": "Shanghai",
+    "destination": "Tokyo",
+    "profile": "urgent",
+    "cargo_value_usd": 76965.14,
+    "max_budget_usd": 10677.93,
+    "deadline_days": 19.97,
+    "routes": [
+      {
+        "route_id": "SHP-034_R0",
+        "mode": "Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 6586.13,
+        "base_transit_days": 4.9,
+        "delay_probability": 0.1218,
+        "delay_duration_days": 1.16,
+        "congestion_score": 0.1391,
+        "geopolitical_risk_score": 0.0708
+      },
+      {
+        "route_id": "SHP-034_R1",
+        "mode": "Ocean+Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 3999.34,
+        "base_transit_days": 24.1,
+        "delay_probability": 0.5118,
+        "delay_duration_days": 5.89,
+        "congestion_score": 0.7689,
+        "geopolitical_risk_score": 0.2851
+      },
+      {
+        "route_id": "SHP-034_R2",
+        "mode": "Air",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 10577.79,
+        "base_transit_days": 29.2,
+        "delay_probability": 0.3944,
+        "delay_duration_days": 4.78,
+        "congestion_score": 0.6584,
+        "geopolitical_risk_score": 0.4665
+      },
+      {
+        "route_id": "SHP-034_R3",
+        "mode": "Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 3355.2,
+        "base_transit_days": 16.9,
+        "delay_probability": 0.138,
+        "delay_duration_days": 3.12,
+        "congestion_score": 0.2201,
+        "geopolitical_risk_score": 0.1097
+      }
+    ]
+  },
+  {
+    "shipment_id": "SHP-035",
+    "origin": "Los Angeles",
+    "destination": "New York",
+    "profile": "standard",
+    "cargo_value_usd": 475928.66,
+    "max_budget_usd": 8977.18,
+    "deadline_days": 27.93,
+    "routes": [
+      {
+        "route_id": "SHP-035_R0",
+        "mode": "Rail",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2096.45,
+        "base_transit_days": 22.4,
+        "delay_probability": 0.4112,
+        "delay_duration_days": 4.78,
+        "congestion_score": 0.4243,
+        "geopolitical_risk_score": 0.3976
+      },
+      {
+        "route_id": "SHP-035_R1",
+        "mode": "Ocean",
+        "archetype": "dominated",
+        "base_freight_cost_usd": 7315.53,
+        "base_transit_days": 17.2,
+        "delay_probability": 0.3786,
+        "delay_duration_days": 6.13,
+        "congestion_score": 0.6359,
+        "geopolitical_risk_score": 0.4382
+      },
+      {
+        "route_id": "SHP-035_R2",
+        "mode": "Air",
+        "archetype": "cheap_risky",
+        "base_freight_cost_usd": 2694.94,
+        "base_transit_days": 30.4,
+        "delay_probability": 0.3637,
+        "delay_duration_days": 6.53,
+        "congestion_score": 0.7865,
+        "geopolitical_risk_score": 0.4588
+      },
+      {
+        "route_id": "SHP-035_R3",
+        "mode": "Ocean+Air",
+        "archetype": "fast_expensive",
+        "base_freight_cost_usd": 10349.38,
+        "base_transit_days": 2.3,
+        "delay_probability": 0.0929,
+        "delay_duration_days": 1.55,
+        "congestion_score": 0.3467,
+        "geopolitical_risk_score": 0.1417
+      },
+      {
+        "route_id": "SHP-035_R4",
+        "mode": "Ocean+Air",
+        "archetype": "balanced",
+        "base_freight_cost_usd": 2917.53,
+        "base_transit_days": 13.2,
+        "delay_probability": 0.119,
+        "delay_duration_days": 3.25,
+        "congestion_score": 0.3523,
+        "geopolitical_risk_score": 0.2809
+      }
+    ]
+  }
+]
