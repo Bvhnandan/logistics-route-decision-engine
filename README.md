@@ -241,7 +241,7 @@ Logistics planner/
 - Python 3.9+ (tested through 3.12)
 - Virtual environment (recommended)
 
-### Installation
+### Installation & Environment Setup
 ```powershell
 # 1. Clone repository
 git clone <repo-url>
@@ -252,9 +252,31 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1    # On Windows PowerShell
 # source venv/bin/activate     # On Linux / macOS
 
-# 3. Install dependencies
+# 3. Install production dependencies
 pip install -r requirements.txt
+
+# 4. Generate the synthetic dataset (seed 42)
+python -m src.generator
 ```
+
+> **Note on Dataset Generation**: Running `python -m src.generator` populates `data/shipments.json` with 35 intercontinental multimodal shipments across calibrated urgent, standard, and cost-sensitive profiles, including realistic maritime/air transshipment hubs and forced-infeasible test scenarios (`SHP-011`, `SHP-021`, `SHP-031`).
+
+---
+
+### Command Cheat Sheet
+
+| Task | Command | Purpose |
+|:---|:---|:---|
+| **Generate Dataset** | `python -m src.generator` | Generates `data/shipments.json` (35 shipments, seed 42) |
+| **Run All Tests** | `pytest tests/ -v` | Runs all 29 unit & integration tests |
+| **Run Evaluation Benchmarks** | `python -m src.evaluate` | Runs Table A/B benchmarks (1,000 CRN draws) & generates plots in `artifacts/` |
+| **Verify Dataset Numerics** | `python check_numerics.py` | Asserts 0 numeric drift against baseline snapshot |
+| **Interactive CLI (3 Showcase)** | `python run_demo.py` | Runs default showcase (1 trade-off, 2 fallbacks) |
+| **Interactive CLI (Catalog Table)** | `python run_demo.py --list` | Displays clean 1-line summary catalog of all 35 shipments |
+| **Run Specific Shipment** | `python run_demo.py SHP-001` | Evaluates single shipment report (case-insensitive) |
+| **Run Multiple Shipments** | `python run_demo.py SHP-003 SHP-031` | Evaluates specified list of shipment IDs |
+
+---
 
 ---
 
@@ -297,7 +319,16 @@ python run_demo.py --scoring minmax SHP-001
 The test suite in [`tests/test_pipeline.py`](file:///c:/Users/91837/Videos/Logistics%20planner/tests/test_pipeline.py) contains **29 targeted pytest cases** covering all critical operational and algorithmic requirements:
 
 ```powershell
+# Run the complete test suite (all 29 tests verbose):
 pytest tests/ -v
+
+# Run with concise summary:
+pytest tests/ -q
+
+# Run specific edge-case test categories:
+pytest tests/test_pipeline.py -k TestReferenceScoring -v
+pytest tests/test_pipeline.py -k TestInfeasibleFallback -v
+pytest tests/test_pipeline.py -k TestProfilePreferenceReversal -v
 ```
 
 ### Breakdown of Test Groups
@@ -320,9 +351,13 @@ pytest tests/ -v
 
 ## 8. Benchmark Evaluation & Comparative Results
 
-Run the full evaluation benchmark:
+Run the full comparative evaluation benchmark:
 ```powershell
+# Run full evaluation benchmark across all 35 shipments (Table A, Table B & sweeps):
 python -m src.evaluate
+
+# Run evaluation with an explicit dataset path:
+python -m src.evaluate --data data/shipments.json
 ```
 
 All 3 strategies are evaluated across **1,000 Common Random Numbers (CRN) simulation draws** (seed 2024) per shipment. A route experiences delay in trial $k$ if $U_k < p_d$. A deadline miss occurs if $\text{Arrival}_k > \text{Deadline}$.
