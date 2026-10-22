@@ -376,7 +376,7 @@ The cost-weight sweep plot for `SHP-001` under reference scoring is saved in [`a
 
 ## Verification & Integrity Check
 
-Before pushing to GitHub, you can verify dataset and numeric identity:
+you can verify dataset and numeric identity:
 
 ```powershell
 python check_numerics.py
